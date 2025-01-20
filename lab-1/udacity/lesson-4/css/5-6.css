@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(0, 12, 92);
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: rgb(185, 194, 250);
+    line-height: 1.6;
+}
+
+h1 {
+    color: rgb(185, 194, 250);
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav {
+    background-color: rgb(10, 25, 130);
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav a {
+    color: rgb(185, 194, 250);
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.card {
+    background-color: rgb(10, 25, 130);
+    border: 1px solid rgb(132, 121, 209);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: rgb(132, 121, 209);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(185, 194, 250);
+    color: rgb(0, 12, 92);
+}
+
+section {
+    margin: 40px 10%;
+}
+
+section img {
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin: 20px auto;
+    border: 3px solid rgb(132, 121, 209);
+    border-radius: 10px;
+}
+
+section p {
+    text-align: justify;
+}
