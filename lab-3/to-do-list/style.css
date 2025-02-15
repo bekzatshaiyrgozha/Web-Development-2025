@@ -15,6 +15,15 @@ body {
     text-align: center;
 }
 
+.history-container {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(32, 229, 203, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
 .input-container {
     display: flex;
     gap: 10px;
@@ -75,5 +84,15 @@ li:hover {
 }
 
 .delete-btn:hover {
+    background: darkred;
+}
+
+.done-bt {
+    background: red;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.done-bt:hover {
     background: darkred;
 }
