@@ -16,7 +16,9 @@ export class HousingService {
       photo: `${this.baseUrl}/bernard-hermant-CLKGGwIBTaY-unsplash.jpg`,
       availableUnits: 4,
       wifi: true,
-      laundry: true
+      laundry: true,
+      
+   
     },
     {
       id: 1,
@@ -26,7 +28,8 @@ export class HousingService {
       photo: `${this.baseUrl}/brandon-griggs-wR11KBaB86U-unsplash.jpg`,
       availableUnits: 0,
       wifi: false,
-      laundry: true
+      laundry: true,
+   
     },
     {
       id: 2,

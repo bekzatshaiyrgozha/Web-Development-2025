@@ -17,12 +17,16 @@ import { RouterModule } from '@angular/router';
       <p class="listing-location">{{ housingLocation.city}}, {{housingLocation.state }}</p>
       <a [routerLink]="['/details', housingLocation.id]">Learn More</a>
     </section>
+
+    
   `,
   styleUrls: ['./housing-location.component.css'],
+  
 })
 
 export class HousingLocationComponent {
 
   @Input() housingLocation!: HousingLocation;
+  
 
 }
