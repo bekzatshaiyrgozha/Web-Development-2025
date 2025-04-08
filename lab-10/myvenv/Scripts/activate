@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\Asus\Desktop\WEB-DEV-24-25\LAB10\myvenv"
+VIRTUAL_ENV="C:\Users\Asus\Desktop\Web-DEV\Lab10\myvenv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
